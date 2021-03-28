@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Tenor+Sans&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Reggae+One&display=swap" rel="stylesheet">
+    <title>Movie Collection</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <div style="background-color: lightgoldenrodyellow; " class="jumbotron">
+
+        </div>
+        <h1 class="heading">Movie Collection</h1>
+        <form>
+            <div class="container">
+                <div class="row">
+                    <div>
+                        <div class="form-check-inline">
+                            <label class="form-check-label">
+                        <input type="radio" class="form-check-input" value="comedies" name="title" >Comedies</label>
+                        </div>
+
+                        <div class="form-check-inline">
+                            <label class="form-check-label">
+                         <input type="radio" class="form-check-input" value="action" name="title">Action</label>
+                        </div>
+                        <div class="form-check-inline">
+                            <label class="form-check-label">
+                         <input type="radio" class="form-check-input" value="romance" name="title">Romance</label>
+                        </div>
+                        <div class="form-check-inline">
+                            <label class="form-check-label">
+                        <input type="radio" class="form-check-input" value="horror" name="title">Horror</label>
+                        </div>
+                        <div class="form-check-inline">
+                            <label class="form-check-label">
+                        <input type="radio" class="form-check-input" value="documentary" name="title">Documentary...</label>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="form-check-inline">
+                            <label class="form-check-label">
+                        <input type="radio" class="form-check-input" value="dramas" name="title" >Dramas</label>
+                        </div>
+
+                        <div class="form-check-inline">
+                            <label class="form-check-label">
+                         <input type="radio" class="form-check-input" value="education" name="title">Education</label>
+                        </div>
+                        <div class="form-check-inline">
+                            <label class="form-check-label">
+                         <input type="radio" class="form-check-input" value="show" name="title">Show</label>
+                        </div>
+                        <div class="form-check-inline">
+                            <label class="form-check-label">
+                        <input type="radio" class="form-check-input" value="science fiction" name="title">Science Fiction</label>
+                        </div>
+                        <div class="form-check-inline">
+                            <label class="form-check-label">
+                        <input type="radio" class="form-check-input" value="adventure" name="title">Adventure</label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </form>
+
+    </div>
+
+
+
+    <div class="container">
+        <div class="row">
+
+            <div id="results"></div>
+        </div>
+    </div>
+
+
+    <script>
+        function bigImg(x) {
+            x.style.height = "64px";
+            x.style.width = "64px";
+        }
+
+        function normalImg(x) {
+            x.style.height = "32px";
+            x.style.width = "32px";
+        }
+    </script>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="app.js"></script>
+
+</body>
+
+
+</html>

@@ -1,0 +1,52 @@
+.jumbotron {
+    background-image: url('img/movie.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 300px;
+}
+
+body {
+    background-image: url('img/moive2.jpg');
+    background-size: cover;
+}
+
+.form-check-inline {
+    color: white;
+    font-size: medium;
+    padding: 5px;
+    margin-left: 285px;
+}
+
+.row {
+    display: flex;
+    font-family: 'Reggae One', cursive;
+}
+
+.heading {
+    text-align: center;
+    color: white;
+    font-family: 'Reggae One', cursive;
+    font-weight: bolder;
+}
+
+#results {
+    background-color: cornflowerblue;
+}
+
+#photo {
+    position: relative;
+    transform: scale(1);
+    transition: transform .1s;
+    margin-right: 20px;
+}
+
+#photo:hover {
+    -webkit-transform: scale(1.8);
+    -ms-transform: scale(1.8);
+    transform: scale(1.8);
+    transition: 1s ease;
+}
+
+h1 {
+    font-family: 'Reggae One', cursive;
+}
