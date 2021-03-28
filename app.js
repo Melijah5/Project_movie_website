@@ -53,8 +53,8 @@ $(document).ready(function() {
                         <div class="col-4 col-sm-6">
                          <div style="margine-left:420px;" class="photo" id="photo"><img src="https://image.tmdb.org/t/p/w185/${movie.poster_path}"
                         </div> 
-                        </div>  
-                        </div>
+                        
+                        
                      </div>
                 </div>
                 `;
